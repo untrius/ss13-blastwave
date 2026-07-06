@@ -98,3 +98,8 @@ endmap
 map oceanpubby
     votable
 endmap
+
+map kilostation
+	votable
+	minplayers 0
+endmap

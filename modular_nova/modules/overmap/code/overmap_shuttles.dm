@@ -43,6 +43,14 @@
 	description = "Sol Federation patrol frigate."
 	admin_notes = "SolFed patrol frigate, seats 3 crew, 2 spacepods."
 
+/datum/map_template/shuttle/overmap/frigate/ikea_small
+	prefix = "_maps/shuttles/overmap/frigates/"
+	port_id = "shipyard"
+	suffix = "small"
+	name = "Space Ikea Sma"
+	description = "Space Ikea Base Model"
+	admin_notes = "Space Ikea base ship, seats 3 or 4 -ish"
+
 /// Not a vessel anyone is meant to fly: a hull carrying one of every mapped
 /// object family the shipyard claims to build, so a single build exercises
 /// every construction route instead of whatever the fleet happens to use.

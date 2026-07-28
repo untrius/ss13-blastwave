@@ -1,75 +1,26 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "a" = (
-/obj/effect/spawner/structure/window/reinforced/shuttle,
-/turf/open/floor/plating,
-/area/shuttle/overmap/frigate)
-"d" = (
-/turf/open/space/basic,
-/area/space)
-"e" = (
-/obj/structure/cable,
-/obj/machinery/computer/monitor{
+/obj/machinery/power/shuttle_engine/overmap/standard{
 	dir = 8
 	},
-/obj/structure/table,
+/turf/open/floor/engine,
+/area/shuttle/overmap/frigate)
+"d" = (
+/obj/structure/cable,
+/obj/machinery/power/smes/engineering,
 /turf/open/floor/mineral/titanium,
 /area/shuttle/overmap/frigate)
-"f" = (
-/obj/machinery/atmospherics/components/binary/pump/layer4{
+"e" = (
+/obj/machinery/atmospherics/components/unary/passive_vent/layer2{
 	dir = 1
 	},
-/turf/open/floor/mineral/titanium,
+/obj/structure/lattice/catwalk,
+/turf/open/space/basic,
 /area/shuttle/overmap/frigate)
-"g" = (
-/obj/structure/cable,
-/obj/machinery/power/apc/auto_name/directional/north,
-/obj/structure/window/reinforced/spawner/directional/west,
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
-/obj/machinery/light/directional/north,
-/turf/open/floor/mineral/titanium,
-/area/shuttle/overmap/frigate)
-"j" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+"f" = (
 /turf/closed/wall/mineral/titanium,
 /area/shuttle/overmap/frigate)
-"k" = (
-/obj/structure/chair/comfy/shuttle/tactical{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/mineral/titanium,
-/area/shuttle/overmap/frigate)
-"l" = (
-/obj/structure/cable,
-/obj/machinery/power/terminal{
-	dir = 4
-	},
-/obj/structure/closet,
-/turf/open/floor/mineral/titanium,
-/area/shuttle/overmap/frigate)
-"n" = (
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
-/turf/open/floor/mineral/titanium,
-/area/shuttle/overmap/frigate)
-"o" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/structure/chair/comfy/shuttle/tactical{
-	dir = 4
-	},
-/obj/machinery/firealarm/directional/south,
-/turf/open/floor/mineral/titanium,
-/area/shuttle/overmap/frigate)
-"p" = (
-/obj/structure/fans/tiny,
-/obj/machinery/door/airlock/external/glass,
-/obj/structure/cable,
-/turf/open/floor/mineral/titanium,
-/area/shuttle/overmap/frigate)
-"s" = (
-/obj/machinery/light/directional/south,
-/turf/open/floor/mineral/titanium,
-/area/shuttle/overmap/frigate)
-"t" = (
+"g" = (
 /obj/structure/window/reinforced/spawner/directional/west,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 1
@@ -78,33 +29,7 @@
 /obj/machinery/light/directional/south,
 /turf/open/floor/mineral/titanium,
 /area/shuttle/overmap/frigate)
-"u" = (
-/obj/structure/cable,
-/turf/open/floor/mineral/titanium,
-/area/shuttle/overmap/frigate)
-"v" = (
-/obj/structure/window/reinforced/spawner/directional/west,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/orange/visible,
-/turf/open/floor/mineral/titanium,
-/area/shuttle/overmap/frigate)
-"w" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/door/window/left/directional/east{
-	dir = 8
-	},
-/turf/open/floor/mineral/titanium,
-/area/shuttle/overmap/frigate)
-"y" = (
-/obj/machinery/power/shuttle_engine/overmap/standard{
-	dir = 8
-	},
-/turf/open/floor/engine,
-/area/shuttle/overmap/frigate)
-"z" = (
-/turf/open/floor/mineral/titanium,
-/area/shuttle/overmap/frigate)
-"A" = (
+"i" = (
 /obj/structure/cable,
 /obj/structure/chair/comfy/shuttle/tactical{
 	dir = 4
@@ -112,173 +37,255 @@
 /obj/machinery/airalarm/directional/north,
 /turf/open/floor/mineral/titanium,
 /area/shuttle/overmap/frigate)
-"B" = (
-/obj/structure/cable,
-/obj/machinery/power/smes/engineering,
-/turf/open/floor/mineral/titanium,
-/area/shuttle/overmap/frigate)
-"C" = (
-/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
-	dir = 1
-	},
-/turf/open/floor/mineral/titanium,
-/area/shuttle/overmap/frigate)
-"E" = (
-/obj/machinery/atmospherics/components/unary/portables_connector/visible/layer4{
-	dir = 1
-	},
-/obj/machinery/portable_atmospherics/canister/air,
-/turf/open/floor/mineral/titanium,
-/area/shuttle/overmap/frigate)
-"F" = (
-/obj/structure/cable,
-/obj/machinery/light/directional/north,
-/turf/open/floor/mineral/titanium,
-/area/shuttle/overmap/frigate)
-"G" = (
-/obj/machinery/overmap/fuel_injector,
-/turf/open/floor/mineral/titanium,
-/area/shuttle/overmap/frigate)
-"M" = (
-/obj/machinery/computer/helm{
-	dir = 8
-	},
-/obj/structure/table,
-/turf/open/floor/mineral/titanium,
-/area/shuttle/overmap/frigate)
-"O" = (
+"l" = (
 /obj/machinery/computer/camera_advanced/shuttle_docker/overmap_nav{
 	dir = 8
 	},
 /obj/structure/table,
 /turf/open/floor/mineral/titanium,
 /area/shuttle/overmap/frigate)
-"Q" = (
-/turf/closed/wall/mineral/titanium,
-/area/shuttle/overmap/frigate)
-"S" = (
-/obj/machinery/telecomms/relay/preset/auto,
-/turf/open/floor/mineral/titanium,
-/area/shuttle/overmap/frigate)
-"U" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/mineral/titanium,
-/area/shuttle/overmap/frigate)
-"V" = (
-/obj/structure/lattice/catwalk,
-/turf/open/space/basic,
-/area/shuttle/overmap/frigate)
-"X" = (
+"m" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/table,
 /turf/open/floor/mineral/titanium,
 /area/shuttle/overmap/frigate)
-"Z" = (
-/obj/machinery/atmospherics/components/unary/passive_vent/layer2{
-	dir = 1
+"n" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/chair/comfy/shuttle/tactical{
+	dir = 4
 	},
+/obj/machinery/firealarm/directional/south,
+/turf/open/floor/mineral/titanium,
+/area/shuttle/overmap/frigate)
+"o" = (
+/obj/structure/fans/tiny,
+/obj/machinery/door/airlock/external/glass,
+/obj/structure/cable,
+/turf/open/floor/mineral/titanium,
+/area/shuttle/overmap/frigate)
+"q" = (
+/turf/open/floor/mineral/titanium,
+/area/shuttle/overmap/frigate)
+"r" = (
+/obj/structure/chair/comfy/shuttle/tactical{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/mineral/titanium,
+/area/shuttle/overmap/frigate)
+"t" = (
+/obj/machinery/overmap/fuel_injector,
+/turf/open/floor/mineral/titanium,
+/area/shuttle/overmap/frigate)
+"u" = (
+/obj/effect/spawner/structure/window/reinforced/shuttle,
+/turf/open/floor/plating,
+/area/shuttle/overmap/frigate)
+"v" = (
 /obj/structure/lattice/catwalk,
 /turf/open/space/basic,
 /area/shuttle/overmap/frigate)
+"w" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/closed/wall/mineral/titanium,
+/area/shuttle/overmap/frigate)
+"y" = (
+/obj/machinery/atmospherics/components/unary/portables_connector/visible/layer4{
+	dir = 1
+	},
+/obj/machinery/portable_atmospherics/canister/air,
+/turf/open/floor/mineral/titanium,
+/area/shuttle/overmap/frigate)
+"B" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/mineral/titanium,
+/area/shuttle/overmap/frigate)
+"C" = (
+/obj/machinery/telecomms/relay/preset/auto,
+/turf/open/floor/mineral/titanium,
+/area/shuttle/overmap/frigate)
+"D" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 1
+	},
+/turf/open/floor/mineral/titanium,
+/area/shuttle/overmap/frigate)
+"E" = (
+/obj/machinery/computer/helm{
+	dir = 8
+	},
+/obj/structure/table,
+/turf/open/floor/mineral/titanium,
+/area/shuttle/overmap/frigate)
+"I" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
+/turf/open/floor/mineral/titanium,
+/area/shuttle/overmap/frigate)
+"L" = (
+/obj/structure/cable,
+/obj/machinery/light/directional/north,
+/turf/open/floor/mineral/titanium,
+/area/shuttle/overmap/frigate)
+"M" = (
+/obj/structure/window/reinforced/spawner/directional/west,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/orange/visible,
+/turf/open/floor/mineral/titanium,
+/area/shuttle/overmap/frigate)
+"N" = (
+/turf/open/space/basic,
+/area/space)
+"O" = (
+/obj/structure/cable,
+/turf/open/floor/mineral/titanium,
+/area/shuttle/overmap/frigate)
+"R" = (
+/obj/structure/cable,
+/obj/machinery/power/terminal{
+	dir = 4
+	},
+/obj/structure/closet,
+/turf/open/floor/mineral/titanium,
+/area/shuttle/overmap/frigate)
+"U" = (
+/obj/structure/fans/tiny,
+/obj/machinery/door/airlock/external/glass,
+/obj/structure/cable,
+/obj/docking_port/mobile/overmap/frigate/solfed_patrol,
+/turf/open/floor/mineral/titanium,
+/area/shuttle/overmap/frigate)
+"V" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/door/window/left/directional/east{
+	dir = 8
+	},
+/turf/open/floor/mineral/titanium,
+/area/shuttle/overmap/frigate)
+"W" = (
+/obj/structure/cable,
+/obj/machinery/computer/monitor{
+	dir = 8
+	},
+/obj/structure/table,
+/turf/open/floor/mineral/titanium,
+/area/shuttle/overmap/frigate)
+"X" = (
+/obj/machinery/light/directional/south,
+/turf/open/floor/mineral/titanium,
+/area/shuttle/overmap/frigate)
+"Y" = (
+/obj/structure/cable,
+/obj/machinery/power/apc/auto_name/directional/north,
+/obj/structure/window/reinforced/spawner/directional/west,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
+/obj/machinery/light/directional/north,
+/turf/open/floor/mineral/titanium,
+/area/shuttle/overmap/frigate)
+"Z" = (
+/obj/machinery/atmospherics/components/binary/pump/layer4{
+	dir = 1
+	},
+/turf/open/floor/mineral/titanium,
+/area/shuttle/overmap/frigate)
 
 (1,1,1) = {"
-Q
-Q
-y
-y
-y
-Q
-Q
+f
+f
+a
+a
+a
+f
+f
 "}
 (2,1,1) = {"
-Q
-S
-v
-v
-v
-G
-Q
+f
+C
+M
+M
+M
+t
+f
 "}
 (3,1,1) = {"
-p
-u
-u
-u
-u
-u
-p
+o
+O
+O
+O
+O
+O
+U
 "}
 (4,1,1) = {"
-Q
-F
-n
+f
+L
+I
+m
+D
 X
-C
-s
-Q
+f
 "}
 (5,1,1) = {"
-a
 u
-z
-X
-z
-z
-a
+O
+q
+m
+q
+q
+u
 "}
 (6,1,1) = {"
-a
-l
-z
-U
-z
-z
-a
+u
+R
+q
+B
+q
+q
+u
 "}
 (7,1,1) = {"
-Q
-B
-u
-U
 f
-E
-Q
+d
+O
+B
+Z
+y
+f
 "}
 (8,1,1) = {"
-Q
-Q
+f
+f
+Y
+V
 g
-w
-t
-Q
-Q
+f
+f
 "}
 (9,1,1) = {"
-V
-Q
-A
-k
-o
-j
-Z
+v
+f
+i
+r
+n
+w
+e
 "}
 (10,1,1) = {"
-d
-a
-e
-M
-O
-a
-d
+N
+u
+W
+E
+l
+u
+N
 "}
 (11,1,1) = {"
-d
-Q
-a
-a
-a
-Q
-d
+N
+f
+u
+u
+u
+f
+N
 "}

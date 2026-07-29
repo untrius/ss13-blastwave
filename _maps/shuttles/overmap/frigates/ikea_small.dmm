@@ -5,6 +5,11 @@
 	},
 /turf/open/floor/engine,
 /area/shuttle/overmap/frigate)
+"b" = (
+/obj/structure/window/reinforced/spawner/directional/west,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/orange/hidden/layer2,
+/turf/open/floor/mineral/titanium,
+/area/shuttle/overmap/frigate)
 "d" = (
 /obj/structure/cable,
 /obj/machinery/power/smes/engineering,
@@ -15,7 +20,7 @@
 	dir = 1
 	},
 /obj/structure/lattice/catwalk,
-/turf/open/space/basic,
+/turf/open/floor/plating,
 /area/shuttle/overmap/frigate)
 "f" = (
 /turf/closed/wall/mineral/titanium,
@@ -35,6 +40,13 @@
 	dir = 4
 	},
 /obj/machinery/airalarm/directional/north,
+/turf/open/floor/mineral/titanium,
+/area/shuttle/overmap/frigate)
+"k" = (
+/obj/structure/window/reinforced/spawner/directional/west,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/orange/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold/pink/hidden/layer1,
 /turf/open/floor/mineral/titanium,
 /area/shuttle/overmap/frigate)
 "l" = (
@@ -84,17 +96,34 @@
 /area/shuttle/overmap/frigate)
 "v" = (
 /obj/structure/lattice/catwalk,
-/turf/open/space/basic,
+/turf/open/floor/plating,
 /area/shuttle/overmap/frigate)
 "w" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/closed/wall/mineral/titanium,
+/area/shuttle/overmap/frigate)
+"x" = (
+/obj/machinery/atmospherics/components/unary/portables_connector/layer1{
+	dir = 8
+	},
+/obj/machinery/portable_atmospherics/canister{
+	initial_gas_mix = "plasma=4400;o2=2930;TEMP=293.15";
+	name = "propellant gas mix"
+	},
+/turf/open/floor/mineral/titanium,
 /area/shuttle/overmap/frigate)
 "y" = (
 /obj/machinery/atmospherics/components/unary/portables_connector/visible/layer4{
 	dir = 1
 	},
 /obj/machinery/portable_atmospherics/canister/air,
+/turf/open/floor/mineral/titanium,
+/area/shuttle/overmap/frigate)
+"z" = (
+/obj/machinery/atmospherics/components/binary/pump{
+	piping_layer = 1;
+	dir = 8
+	},
 /turf/open/floor/mineral/titanium,
 /area/shuttle/overmap/frigate)
 "B" = (
@@ -123,6 +152,18 @@
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
 /turf/open/floor/mineral/titanium,
 /area/shuttle/overmap/frigate)
+"J" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold/pink/hidden/layer1,
+/turf/open/floor/mineral/titanium,
+/area/shuttle/overmap/frigate)
+"K" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/layer_manifold/scrubbers/hidden{
+	dir = 4
+	},
+/turf/open/floor/mineral/titanium,
+/area/shuttle/overmap/frigate)
 "L" = (
 /obj/structure/cable,
 /obj/machinery/light/directional/north,
@@ -130,7 +171,8 @@
 /area/shuttle/overmap/frigate)
 "M" = (
 /obj/structure/window/reinforced/spawner/directional/west,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/orange/visible,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/orange/hidden/layer2,
 /turf/open/floor/mineral/titanium,
 /area/shuttle/overmap/frigate)
 "N" = (
@@ -152,7 +194,7 @@
 /obj/structure/fans/tiny,
 /obj/machinery/door/airlock/external/glass,
 /obj/structure/cable,
-/obj/docking_port/mobile/overmap/frigate/solfed_patrol,
+/obj/docking_port/mobile/overmap/frigate/ikea_small,
 /turf/open/floor/mineral/titanium,
 /area/shuttle/overmap/frigate)
 "V" = (
@@ -173,6 +215,7 @@
 /area/shuttle/overmap/frigate)
 "X" = (
 /obj/machinery/light/directional/south,
+/obj/machinery/atmospherics/pipe/smart/manifold/pink/hidden/layer1,
 /turf/open/floor/mineral/titanium,
 /area/shuttle/overmap/frigate)
 "Y" = (
@@ -184,7 +227,7 @@
 /turf/open/floor/mineral/titanium,
 /area/shuttle/overmap/frigate)
 "Z" = (
-/obj/machinery/atmospherics/components/binary/pump/layer4{
+/obj/machinery/atmospherics/components/binary/pump/on/layer4{
 	dir = 1
 	},
 /turf/open/floor/mineral/titanium,
@@ -202,9 +245,9 @@ f
 (2,1,1) = {"
 f
 C
+b
 M
-M
-M
+k
 t
 f
 "}
@@ -212,9 +255,9 @@ f
 o
 O
 O
-O
-O
-O
+K
+J
+J
 U
 "}
 (4,1,1) = {"
@@ -232,7 +275,7 @@ O
 q
 m
 q
-q
+z
 u
 "}
 (6,1,1) = {"
@@ -241,7 +284,7 @@ R
 q
 B
 q
-q
+x
 u
 "}
 (7,1,1) = {"

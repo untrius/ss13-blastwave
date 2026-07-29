@@ -45,7 +45,7 @@
 
 /datum/map_template/shuttle/overmap/frigate/ikea_small
 	prefix = "_maps/shuttles/overmap/frigates/"
-	port_id = "shipyard"
+	port_id = "ikea"
 	suffix = "small"
 	name = "Space Ikea Sma"
 	description = "Space Ikea Base Model"
@@ -79,6 +79,13 @@
 /obj/docking_port/mobile/overmap/frigate/solfed_patrol
 	name = "SolFed Patrol"
 	shuttle_id = "solfed_patrol"
+	preferred_direction = WEST
+	port_direction = EAST // match map airlock facing when mapped
+	area_type = /area/shuttle/overmap/frigate
+
+/obj/docking_port/mobile/overmap/frigate/ikea_small
+	name = "Space Ikea Sma"
+	shuttle_id = "ikea_small"
 	preferred_direction = WEST
 	port_direction = EAST // match map airlock facing when mapped
 	area_type = /area/shuttle/overmap/frigate

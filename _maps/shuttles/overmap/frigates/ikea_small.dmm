@@ -9,6 +9,12 @@
 "b" = (
 /obj/structure/window/reinforced/spawner/directional/west,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/orange/hidden/layer2,
+/turf/open/floor/mineral/titanium,
+/area/shuttle/overmap/frigate)
+"c" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/table,
 /obj/structure/cable,
 /turf/open/floor/mineral/titanium,
 /area/shuttle/overmap/frigate)
@@ -62,6 +68,8 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/table,
+/obj/structure/cable,
+/obj/structure/cable/layer1,
 /turf/open/floor/mineral/titanium,
 /area/shuttle/overmap/frigate)
 "n" = (
@@ -131,6 +139,7 @@
 "B" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
 /turf/open/floor/mineral/titanium,
 /area/shuttle/overmap/frigate)
 "C" = (
@@ -141,6 +150,7 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 1
 	},
+/obj/structure/cable/layer1,
 /turf/open/floor/mineral/titanium,
 /area/shuttle/overmap/frigate)
 "E" = (
@@ -150,14 +160,18 @@
 /obj/structure/table,
 /turf/open/floor/mineral/titanium,
 /area/shuttle/overmap/frigate)
+"G" = (
+/obj/machinery/atmospherics/pipe/smart/manifold/pink/hidden/layer1,
+/turf/open/floor/mineral/titanium,
+/area/shuttle/overmap/frigate)
 "I" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
-/obj/structure/cable,
+/obj/structure/cable/layer1,
 /turf/open/floor/mineral/titanium,
 /area/shuttle/overmap/frigate)
 "J" = (
-/obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold/pink/hidden/layer1,
+/obj/structure/cable,
 /turf/open/floor/mineral/titanium,
 /area/shuttle/overmap/frigate)
 "K" = (
@@ -168,14 +182,15 @@
 /turf/open/floor/mineral/titanium,
 /area/shuttle/overmap/frigate)
 "L" = (
-/obj/structure/cable,
 /obj/machinery/light/directional/north,
+/obj/structure/cable/multilayer/connected,
 /turf/open/floor/mineral/titanium,
 /area/shuttle/overmap/frigate)
 "M" = (
 /obj/structure/window/reinforced/spawner/directional/west,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/orange/hidden/layer2,
+/obj/structure/cable,
 /turf/open/floor/mineral/titanium,
 /area/shuttle/overmap/frigate)
 "N" = (
@@ -219,6 +234,7 @@
 "X" = (
 /obj/machinery/light/directional/south,
 /obj/machinery/atmospherics/pipe/smart/manifold/pink/hidden/layer1,
+/obj/structure/cable/multilayer/connected,
 /turf/open/floor/mineral/titanium,
 /area/shuttle/overmap/frigate)
 "Y" = (
@@ -257,9 +273,9 @@ f
 (3,1,1) = {"
 o
 O
-O
+q
 K
-J
+G
 J
 U
 "}
@@ -276,7 +292,7 @@ f
 u
 O
 q
-m
+c
 q
 z
 u
